@@ -11,6 +11,7 @@ def generate_port_number():
         'CNC Machine ID 003': [('MODBUS', 502)],
         'Data Validation': [('HTTPS', 443), ('FTP', 21)],
         'Data Storage': [('HTTPS', 443), ('FTP', 21)],
+        'Router':  [('OPC UA', 4840),('MODBUS', 502),('HTTPS', 443), ('FTP', 21)],
     }
     
     machine_name = generate_machine_name()
@@ -22,7 +23,7 @@ def generate_machine_status():
     return random.choice(statuses)
 
 def generate_machine_name():
-    names = ['Monitoring Computer', 'CNC Machine ID 003', 'Data Validation','Data Storage']
+    names = ['Monitoring Computer', 'CNC Machine ID 003', 'Data Validation','Data Storage','Router']
     return random.choice(names)
 
 def generate_machine_comment():
@@ -38,7 +39,7 @@ def generate_machine_network_log():
     return random.choice(network_log)
 
 def is_local_ip(ip_address):
-    if ip_address.startswith('192.168.') or ip_address.startswith('10.'):
+    if ip_address.startswith('192.168.') or ip_address.startswith('10.') or ip_address.startswith('172.16.'):
         return 'Local'
     else:
         return 'Non-Local'
@@ -73,21 +74,3 @@ with open('log_data.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['Timestamp', 'Source IP', 'Source Port Protocol', 'Source Port', 'Destination IP', 'Destination Port Protocol', 'Destination Port', 'Machine ID', 'Machine Name', 'Machine Status', 'Machine Comment', 'Machine Network Log','Source IP Type','Dest IP Type'])
     writer.writerows(log_data)
-
-import random
-
-def generate_port_number():
-    protocols = {
-        'TCP': range(0, 1024),
-        'HTTP': [80],
-        'SMTP': [25],
-        'FTP': [21],
-        'ICMP': [1]
-    }
-    
-    protocol, ports = random.choice(list(protocols.items()))
-    return protocol, random.choice(ports)
-
-protocol, port = generate_port_number()
-print("Protocol:", protocol)
-print("Port:", port)

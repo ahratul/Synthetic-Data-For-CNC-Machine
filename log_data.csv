@@ -1,0 +1,101 @@
+Timestamp,Source IP,Source Port Protocol,Source Port,Destination IP,Destination Port Protocol,Destination Port,Machine ID,Machine Name,Machine Status,Machine Comment,Machine Network Log,Source IP Type,Dest IP Type
+2023-02-12 16:39:14,42.60.34.48,OPC UA,4840,62.27.208.198,HTTPS,443,5,Data Validation,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,144.19.66.95,FTP,21,107.200.15.62,HTTPS,443,1,CNC Machine ID 003,Stable,Machine has a connectivity issue,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,9.53.135.189,MODBUS,502,7.221.39.123,HTTPS,443,8,Data Validation,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,120.194.139.141,FTP,21,187.100.232.2,HTTPS,443,5,Data Validation,Error,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,233.199.215.64,OPC UA,4840,28.233.63.18,FTP,21,10,Router,Error,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,139.171.128.67,HTTPS,443,203.11.36.99,OPC UA,4840,2,Data Validation,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,9.208.119.125,HTTPS,443,184.71.169.76,OPC UA,4840,10,Monitoring Computer,Stable,Machine is overheating,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,126.6.195.200,HTTPS,443,216.217.66.17,FTP,21,8,CNC Machine ID 003,Error,Machine is overheating,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,235.65.194.145,OPC UA,4840,108.23.81.156,OPC UA,4840,2,Monitoring Computer,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,75.247.254.200,FTP,21,131.58.172.189,OPC UA,4840,6,Data Storage,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,217.36.17.48,FTP,21,91.16.135.59,FTP,21,1,CNC Machine ID 003,Error,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,223.59.214.156,OPC UA,4840,176.122.166.224,FTP,21,2,Monitoring Computer,Stable,Machine is running low on memory,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,148.182.31.254,FTP,21,101.81.61.20,OPC UA,4840,5,CNC Machine ID 003,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,114.200.134.65,HTTPS,443,12.133.191.139,HTTPS,443,2,Data Storage,Stable,Machine has a software problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,139.223.243.196,MODBUS,502,161.156.105.97,OPC UA,4840,6,Monitoring Computer,Error,Machine has a hardware problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,213.192.18.247,HTTPS,443,39.6.36.48,FTP,21,5,Monitoring Computer,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,240.157.217.98,FTP,21,114.43.163.228,MODBUS,502,2,Data Validation,Stable,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,190.185.33.58,HTTPS,443,213.61.203.21,OPC UA,4840,8,Data Storage,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,78.68.221.78,FTP,21,222.94.237.7,HTTPS,443,1,Data Validation,Error,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,179.155.180.197,OPC UA,4840,171.154.92.127,FTP,21,1,Data Storage,Stable,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,104.223.130.202,HTTPS,443,163.31.90.253,MODBUS,502,10,Data Storage,Stable,Machine is overheating,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,36.220.63.153,FTP,21,13.87.193.28,FTP,21,2,Data Storage,Stable,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,232.117.109.14,HTTPS,443,230.146.100.186,MODBUS,502,5,Monitoring Computer,Error,Machine is overheating,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,153.10.255.1,OPC UA,4840,102.100.167.130,MODBUS,502,1,Data Validation,Stable,Machine has a software problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,18.183.171.194,FTP,21,247.213.190.207,HTTPS,443,1,Data Storage,Error,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,150.181.34.143,OPC UA,4840,227.42.70.155,OPC UA,4840,6,Data Validation,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,242.18.186.16,MODBUS,502,247.50.185.248,OPC UA,4840,4,Data Validation,Error,Machine has a hardware problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,205.96.95.48,MODBUS,502,128.181.255.245,FTP,21,2,Data Storage,Error,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,63.44.77.161,OPC UA,4840,101.132.44.4,FTP,21,8,Data Storage,Error,Machine is overheating,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,143.30.250.189,HTTPS,443,109.30.18.223,MODBUS,502,2,Data Validation,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,131.95.117.43,FTP,21,242.95.159.193,OPC UA,4840,1,CNC Machine ID 003,Error,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,37.128.157.183,MODBUS,502,126.34.26.125,MODBUS,502,10,Data Storage,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,122.46.152.39,MODBUS,502,194.73.58.78,HTTPS,443,3,Router,Error,Machine has a software problem,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,168.86.52.118,FTP,21,207.111.230.25,MODBUS,502,1,Data Storage,Stable,Machine has a software problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,207.129.106.35,HTTPS,443,152.39.210.2,MODBUS,502,6,Data Storage,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,247.197.135.244,FTP,21,153.88.202.21,OPC UA,4840,9,Router,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,43.104.23.92,FTP,21,75.175.187.25,FTP,21,3,CNC Machine ID 003,Stable,Machine has a software problem,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,80.219.220.38,OPC UA,4840,209.111.133.125,MODBUS,502,3,Data Storage,Stable,Machine is overheating,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,194.204.236.237,OPC UA,4840,1.155.11.193,MODBUS,502,2,Monitoring Computer,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,180.248.87.206,MODBUS,502,81.244.253.231,HTTPS,443,6,Data Validation,Stable,Machine has a hardware problem,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,247.211.75.197,FTP,21,162.59.233.205,MODBUS,502,7,Data Storage,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,237.46.149.169,MODBUS,502,255.108.41.21,HTTPS,443,6,Data Validation,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,83.47.231.100,HTTPS,443,118.125.243.29,HTTPS,443,3,Monitoring Computer,Stable,Machine has a connectivity issue,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,204.43.214.71,FTP,21,127.9.174.34,FTP,21,2,CNC Machine ID 003,Stable,Machine is overheating,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,26.148.105.186,OPC UA,4840,90.171.96.78,OPC UA,4840,9,Data Storage,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,126.35.150.53,MODBUS,502,224.180.152.198,OPC UA,4840,5,CNC Machine ID 003,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,225.39.62.148,HTTPS,443,226.172.86.79,HTTPS,443,7,Monitoring Computer,Error,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,191.158.150.133,OPC UA,4840,22.4.80.170,FTP,21,8,Router,Error,Machine has a hardware problem,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,123.108.199.221,MODBUS,502,143.107.124.125,HTTPS,443,10,Monitoring Computer,Error,Machine is overheating,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,23.248.50.48,OPC UA,4840,24.10.189.183,OPC UA,4840,10,CNC Machine ID 003,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,148.34.81.230,FTP,21,203.16.221.106,FTP,21,2,CNC Machine ID 003,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,25.180.54.184,FTP,21,78.158.147.91,MODBUS,502,6,CNC Machine ID 003,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,81.58.72.148,MODBUS,502,215.182.193.131,FTP,21,3,Data Validation,Stable,Machine has a connectivity issue,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,19.136.150.4,MODBUS,502,84.150.206.84,FTP,21,8,CNC Machine ID 003,Error,Machine is running low on memory,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,254.158.11.180,OPC UA,4840,9.24.54.173,MODBUS,502,3,CNC Machine ID 003,Error,Machine is running low on memory,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,188.77.32.98,HTTPS,443,142.83.81.159,MODBUS,502,2,Data Validation,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,128.146.97.202,MODBUS,502,5.233.14.253,FTP,21,4,Monitoring Computer,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,118.175.127.253,HTTPS,443,14.12.220.205,FTP,21,9,Router,Error,Machine has a hardware problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,72.131.205.147,FTP,21,188.218.190.95,HTTPS,443,2,Data Validation,Error,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,136.163.171.12,MODBUS,502,74.195.66.164,HTTPS,443,7,CNC Machine ID 003,Stable,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,156.134.200.244,FTP,21,251.158.1.187,MODBUS,502,5,Monitoring Computer,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,163.71.224.185,MODBUS,502,183.66.238.242,FTP,21,7,Data Storage,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,241.119.232.69,MODBUS,502,35.115.214.121,HTTPS,443,2,Router,Error,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,171.111.154.252,HTTPS,443,247.125.248.221,MODBUS,502,7,CNC Machine ID 003,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,162.74.106.235,FTP,21,232.161.141.30,OPC UA,4840,8,CNC Machine ID 003,Stable,Machine has a software problem,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,153.22.12.45,FTP,21,14.7.60.133,MODBUS,502,7,CNC Machine ID 003,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,65.194.140.18,FTP,21,58.246.135.52,FTP,21,7,Monitoring Computer,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,218.12.179.79,FTP,21,132.250.16.32,FTP,21,1,CNC Machine ID 003,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,184.212.121.132,HTTPS,443,26.18.134.196,MODBUS,502,10,Data Validation,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,209.142.215.215,FTP,21,209.115.126.5,FTP,21,4,CNC Machine ID 003,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,43.48.117.4,HTTPS,443,4.73.150.213,OPC UA,4840,10,CNC Machine ID 003,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,62.107.234.80,HTTPS,443,225.115.70.51,MODBUS,502,4,CNC Machine ID 003,Stable,Machine is running low on memory,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,92.131.25.131,MODBUS,502,236.170.48.19,MODBUS,502,5,Router,Stable,Machine has a software problem,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,100.189.55.243,FTP,21,24.70.177.174,MODBUS,502,6,Router,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,126.127.199.20,OPC UA,4840,142.73.218.175,HTTPS,443,8,Monitoring Computer,Stable,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,169.78.62.251,HTTPS,443,64.21.64.30,HTTPS,443,3,Router,Stable,Machine has a software problem,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,8.41.150.100,MODBUS,502,123.70.221.86,HTTPS,443,5,Data Validation,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,225.197.2.182,OPC UA,4840,81.2.191.159,MODBUS,502,8,Data Validation,Stable,Machine is overheating,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,123.152.73.187,OPC UA,4840,7.59.137.179,OPC UA,4840,4,Router,Stable,Machine has a software problem,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,157.18.3.217,MODBUS,502,15.45.73.35,FTP,21,10,CNC Machine ID 003,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,3.185.134.122,HTTPS,443,249.184.66.8,FTP,21,6,Data Validation,Error,Machine has a connectivity issue,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,122.11.115.38,FTP,21,97.136.69.3,HTTPS,443,6,Data Storage,Stable,Machine is running low on memory,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,49.128.255.232,MODBUS,502,151.21.70.117,OPC UA,4840,3,Router,Stable,Machine is overheating,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,87.174.75.145,FTP,21,14.126.134.110,MODBUS,502,1,CNC Machine ID 003,Stable,Machine has a connectivity issue,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,30.123.187.185,HTTPS,443,27.222.215.239,HTTPS,443,4,CNC Machine ID 003,Error,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,102.22.21.107,OPC UA,4840,224.210.19.56,HTTPS,443,5,Monitoring Computer,Error,Machine is overheating,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,193.30.100.216,HTTPS,443,163.18.23.214,HTTPS,443,5,Monitoring Computer,Stable,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,130.143.228.224,OPC UA,4840,217.25.23.253,OPC UA,4840,10,CNC Machine ID 003,Error,Machine is functioning normally,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,136.81.164.6,OPC UA,4840,133.151.252.142,MODBUS,502,6,Data Validation,Error,Machine is overheating,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,163.255.249.216,MODBUS,502,188.200.22.77,HTTPS,443,5,CNC Machine ID 003,Error,Machine has a connectivity issue,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,150.117.230.99,FTP,21,48.49.226.24,FTP,21,1,CNC Machine ID 003,Error,Machine is running low on memory,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,159.38.184.171,OPC UA,4840,148.59.57.135,HTTPS,443,9,CNC Machine ID 003,Stable,Machine has a connectivity issue,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,51.179.24.88,MODBUS,502,181.187.22.79,OPC UA,4840,2,Data Storage,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,129.218.72.58,MODBUS,502,226.115.174.223,OPC UA,4840,8,Monitoring Computer,Stable,Machine is functioning normally,Outgoing network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,49.229.125.95,MODBUS,502,70.211.217.158,FTP,21,5,Router,Stable,Machine has a connectivity issue,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,88.130.216.93,MODBUS,502,248.147.176.183,HTTPS,443,2,Monitoring Computer,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,122.162.164.168,HTTPS,443,221.173.229.52,HTTPS,443,1,Monitoring Computer,Error,Machine has a connectivity issue,No network activity,Non-Local,Non-Local
+2023-02-12 16:39:14,150.129.159.120,OPC UA,4840,192.91.216.60,OPC UA,4840,3,Router,Error,Machine is functioning normally,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,17.220.204.16,HTTPS,443,64.28.126.199,HTTPS,443,1,CNC Machine ID 003,Stable,Machine has a connectivity issue,Incoming network traffic,Non-Local,Non-Local
+2023-02-12 16:39:14,179.142.224.122,HTTPS,443,225.52.218.9,FTP,21,8,Router,Error,Machine has a connectivity issue,Incoming network traffic,Non-Local,Non-Local

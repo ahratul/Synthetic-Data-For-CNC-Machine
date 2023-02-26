@@ -18,7 +18,7 @@ def generate_ip_address():
     return ip_address
 
 
-def generate_port_number():
+def generate_port_number(ip_address):
     protocols = {
         'Monitoring Computer': [('OPC UA', 4840)],
         'CNC Machine ID 003': [('MODBUS', 502)],
@@ -29,6 +29,48 @@ def generate_port_number():
 
     machine_name = generate_machine_name()
     protocol, port = random.choice(protocols[machine_name])
+
+    # Check if the IP address is public and add additional protocols and ports
+    if not is_local_ip(ip_address):
+        public_protocols = [('LDAP', 389), ('IMAP', 143), ('HTTPS', 443), ('HTTPS', 443),
+                            ('SSH', 22),
+                            ('FTP', 21),
+                            ('DNS', 53),
+                            ('Telnet', 23),
+                            ('SMTP', 25),
+                            ('SNMP', 161),
+                            ('LDAP', 389),
+                            ('IMAP', 143),
+                            ('POP3', 110),
+                            ('SMB', 445),
+                            ('AFP', 548),
+                            ('AFP over TCP', 427),
+                            ('NetBIOS', 137),
+                            ('DHCP server', 67),
+                            ('DHCP client', 68),
+                            ('TFTP', 69),
+                            ('RDP', 3389),
+                            ('NTP', 123),
+                            ('BGP', 179),
+                            ('SNMP trap', 162),
+                            ('SIP', 5060),
+                            ('SIP-TLS', 5061),
+                            ('SMTPS', 465),
+                            ('SMTP submission', 587),
+                            ('LDAPS', 636),
+                            ('IMAPS', 993),
+                            ('POP3S', 995),
+                            ('HTTP alternate', 8080),
+                            ('HTTP alternate', 8000),
+                            ('HTTP alternate', 8888),
+                            ('MySQL', 3306),
+                            ('PostgreSQL', 5432),
+                            ('Oracle database', 1521),
+                            ('MongoDB', 27017),
+                            ('Redis', 6379),
+                            ('Memcached', 11211)]
+        protocol, port = random.choice(public_protocols)
+
     return protocol, port
 
 
@@ -65,9 +107,9 @@ def generate_machine_network_log():
 
 def is_local_ip(ip_address):
     if ip_address.startswith('192.168.') or ip_address.startswith('10.') or ip_address.startswith('172.16.'):
-        return 'Local'
+        return True
     else:
-        return 'Non-Local'
+        return False
 
 
 used_flow_ids = []  # Keep track of used flow_ids
@@ -85,9 +127,9 @@ def generate_log_entry():
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())
     src_ip = generate_ip_address()
     dst_ip = generate_ip_address()
-    src_port_protocol, src_port = generate_port_number()
+    src_port_protocol, src_port = generate_port_number(src_ip)
     sent_packet_size = random.randint(64, 1500)
-    dst_port_protocol, dst_port = generate_port_number()
+    dst_port_protocol, dst_port = generate_port_number(dst_ip)
     max_received_size = min(sent_packet_size, 1500)
     received_packet_size = random.randint(64, max_received_size)
     machine_id = random.randint(1, 10)

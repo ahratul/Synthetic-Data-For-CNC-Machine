@@ -4,7 +4,18 @@ import csv
 
 
 def generate_ip_address():
-    return ".".join([str(random.randint(1, 255)) for i in range(4)])
+    # Generate a random IP address within the private IP address ranges
+    is_public = random.random() < 0.25  # 25% chance of generating public IP
+    if is_public:
+        return ".".join([str(random.randint(1, 255)) for i in range(4)])
+    first_octet = random.choice([10, 172, 192])
+    if first_octet == 10:
+        ip_address = f"{first_octet}.{random.randint(0, 255)}.{random.randint(0, 255)}.{random.randint(0, 255)}"
+    elif first_octet == 172:
+        ip_address = f"{first_octet}.16.{random.randint(0, 255)}.{random.randint(0, 255)}"
+    else:
+        ip_address = f"{first_octet}.168.{random.randint(0, 255)}.{random.randint(0, 255)}"
+    return ip_address
 
 
 def generate_port_number():
